@@ -17,29 +17,29 @@ App for testing: [GlobalsQa](https://www.globalsqa.com/angularJs-protractor/Bank
 
 **Your task** is to check next flow:
 
-<!-- 1. Click **[Customer Login]** -->
-<!-- 1. Select **Hermione Granger** -->
-<!-- 1. Click **[Login]** -->
-<!-- 1. Assert Account Number (e.g. `1001`) -->
-<!-- 1. Assert Balance -->
-<!-- 1. Assert Currency -->
-<!-- 1. Click **[Deposit]** -->
-<!-- 1. Type deposit value -->
-<!-- 1. Click **[Deposit]** -->
-<!-- 1. Assert success message -->
-<!-- 1. Assert Balance -->
-<!-- 1. Click **[Withdrawl]** -->
-<!-- 1. Type amount of money to withdraw -->
-<!-- 1. Click **[Withdraw]** -->
-<!-- 1. Assert success message -->
-<!-- 1. Assert Balance -->
-<!-- 1. Click **[Transacrions]** -->
-<!-- 1. Assert both transactions details: Deposite and Withdraw -->
-<!-- 1. Click **[Back]** -->
-<!-- 1. Change Account number -->
-<!-- 1. Click **[Transacrions]** -->
-<!-- 1. Assert no transactions for this account -->
-<!-- 1. Click **[Logout]** -->
+1. Click **[Customer Login]**
+1. Select **Hermione Granger**
+1. Click **[Login]**
+1. Assert Account Number (e.g. `1001`)
+1. Assert Balance
+1. Assert Currency
+1. Click **[Deposit]**
+1. Type deposit value
+1. Click **[Deposit]**
+1. Assert success message
+1. Assert Balance
+1. Click **[Withdrawl]**
+1. Type amount of money to withdraw
+1. Click **[Withdraw]**
+1. Assert success message
+1. Assert Balance
+1. Click **[Transacrions]**
+1. Assert both transactions details: Deposite and Withdraw
+1. Click **[Back]**
+1. Change Account number
+1. Click **[Transacrions]**
+1. Assert no transactions for this account
+1. Click **[Logout]**
 1. Assert using is logged out
 
 You can find an example in the `example.spec.js` file.
