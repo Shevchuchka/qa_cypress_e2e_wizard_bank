@@ -7,8 +7,8 @@ describe('Bank app', () => {
   const accountNumber = '1001';
   const startBalance = 5096;
 
-  const depositAmount = `${faker.number.int({ min: 1000, max: 5000 })}`;
-  const withdrawAmount = `${faker.number.int({ min: 100, max: 500 })}`;
+  const depositAmount = faker.number.int({ min: 1000, max: 5000 });
+  const withdrawAmount = faker.number.int({ min: 100, max: 500 });
   const balance = depositAmount - withdrawAmount + startBalance;
 
   before(() => {
@@ -43,7 +43,7 @@ describe('Bank app', () => {
       .should('contain', 'Deposit Successful');
 
     cy.contains('[ng-hide="noAccount"]', 'Balance')
-      .contains('strong', +depositAmount + startBalance)
+      .contains('strong', depositAmount + startBalance)
       .should('be.visible');
 
     cy.get('[ng-click="withdrawl()"]').click();
